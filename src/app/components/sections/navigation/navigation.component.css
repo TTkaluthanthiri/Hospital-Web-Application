@@ -1,0 +1,27 @@
+.navigation {
+    position: relative;
+    top: 5px;
+
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 40px;
+}
+
+.navigation ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(125, 165, 168);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.navigation ul li a:hover {
+    color: rgb(160, 221, 250);
+}
