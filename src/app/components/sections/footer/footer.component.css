@@ -1,0 +1,49 @@
+.footer-dark {
+    background-color: black;
+    color: white;
+    padding: 20px 80px;
+}
+
+.links-row {
+    width: 100%;
+    display: flex;
+    flex-basis: 300px;
+    
+}
+.links-row div:nth-of-type(1){
+    flex-basis: 27vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-row div:nth-of-type(1) a i{
+    font-size: 40px;
+}
+
+.links-row div:nth-of-type(2), .links-row div:nth-of-type(3) {
+    flex-basis: 20vw;
+}
+
+.links-col {
+    margin:20px;
+}
+
+.links-col h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+
+}
+
+.links-col a {
+    text-transform: uppercase;
+}
+
+a {
+    transition:  .6s;
+    color: rgb(73, 99, 96);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(28, 192, 173);
+}

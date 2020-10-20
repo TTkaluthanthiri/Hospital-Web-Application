@@ -1,4 +1,20 @@
-.container-normal {
-    padding: 80px;
-    background-color: yellow;
+
+
+
+
+.card-custom {
+    border-radius: 10px;
+    background-color: rgb(168, 240, 240);
+}
+
+.card-custom h4 {
+    color: #293f50;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.card-custom i{
+    font-size: 150px;
+    color: #293f50;
 }

@@ -15,6 +15,7 @@ import { SlideComponent } from './components/sections/slide/slide.component';
 import { FooterComponent } from './components/sections/footer/footer.component';
 import { RouterModule} from '@angular/router';
 import { ContainerDisplayerComponent } from './components/sections/container-displayer/container-displayer.component';
+import { ContainerTitleComponent } from './components/sections/container-title/container-title.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ContainerDisplayerComponent } from './components/sections/container-dis
     NavigationComponent,
     SlideComponent,
     FooterComponent,
-    ContainerDisplayerComponent
+    ContainerDisplayerComponent,
+    ContainerTitleComponent
   ],
   imports: [
     BrowserModule,
