@@ -6,5 +6,5 @@ export interface User{
     address?:string;
     email?:string;
     info?:string;
-    password?:stringdsdsds;
+    password?:string;
 }
