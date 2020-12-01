@@ -1,0 +1,39 @@
+<app-container-title title="Information" desc='{{description}}'></app-container-title>
+
+<div class="container-text container-normal light">
+
+    <!-- Small Navigation -->
+
+    <div class="text-center container-head">
+        <h4>Overview</h4>
+        <p>Brief contrast on Hospital Itself</p>
+    </div>
+
+    <div class="row">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+            and scrambled it to make a type specimen book. It has survived not only five centuries, but also the 
+            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
+            and scrambled it to make a type specimen book. It has survived not only five centuries, but also the 
+            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+    <hr>
+    <div class="text-center container-head">
+        <h4>Our Staff</h4>
+        <p>Brief contrast on Hospital staff</p>
+    </div>
+
+    
+
+      <div *ngFor="let member of members; let index = i">
+          <app-card-lg code="{{member['id']}}"  name="{{member['name']}}" cat="{{member['category']}}" info="{{member['info']}}"  url="{{member['img']}}" quali="{{member['quali']}}" spe="{{member['spe']}}"></app-card-lg>
+          <hr>
+      </div>
+
+      
+</div>

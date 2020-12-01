@@ -1,0 +1,29 @@
+<app-container-title title='User Login' desc='Small Description under Login title'></app-container-title>
+
+
+<div class="container-text container-normal light">
+    <div class="form-container">
+        <form (ngSubmit)="onLogin()">
+            <div class="row">
+                <div class="col">
+                    
+                    <div class="form-group">
+                        <input class="form-control" id="InputUname" type="text" placeholder="Your Username" name="uname" [(ngModel)]="reg_user.uname">
+                        <small>Not there</small>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" id="InputPass" type="text" placeholder="Your Password" name="password" [(ngModel)]="reg_user.password">
+                        <small>Not there</small>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">LOGIN</button>
+                    <div class="text-center">
+                        <a routerLink="/register">To Register page</a> <br>
+                        <a href="#">Back</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

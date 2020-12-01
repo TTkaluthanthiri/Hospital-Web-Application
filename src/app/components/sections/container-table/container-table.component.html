@@ -1,0 +1,74 @@
+<div class="container-normal light">
+
+    <div class="text-center container-head">
+        <h4>OUR SERVICES</h4>
+        <p>Small Description about this section</p>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <table class="table table-hover">
+                <thead class="thead-dark bg-primary">
+                  <tr>
+                    <th scope="col" colspan="2">Route</th>
+                    <th scope="col" rowspan="2" style="vertical-align: middle;">Service</th>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="col">Origin</th>
+                    <th scope="col">Destination</th>
+                    
+                    
+                  </tr>
+                </thead>
+                <tbody>
+
+                    <div *ngFor="let appoint of appointments; let index = i" >
+                        <tr>
+                            <td>{{appoint.name}}</td>
+                            <td>COLOMBO</td>
+                            <td>
+                                <select class="form-control"> 
+                                    <option>NON HAZARDOUS</option>
+                                    <option>HT LOCAL</option>
+                                </select>
+                            </td>
+                          </tr>
+                    </div>
+                  
+                  <tr>
+                    <td>COLOMBO</td>
+                    <td>COLOMBO</td>
+                    <td>
+                        <select class="form-control"> 
+                            <option>NON HAZARDOUS</option>
+                            <option>HT LOCAL</option>
+                        </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>COLOMBO</td>
+                    <td>COLOMBO</td>
+                    <td>
+                        <select class="form-control"> 
+                            <option>NON HAZARDOUS</option>
+                            <option>HT LOCAL</option>
+                        </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>COLOMBO</td>
+                    <td>COLOMBO</td>
+                    <td>
+                        <select class="form-control"> 
+                            <option>NON HAZARDOUS</option>
+                            <option>HT LOCAL</option>
+                        </select>
+                    </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>

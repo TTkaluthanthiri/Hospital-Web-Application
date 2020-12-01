@@ -1,0 +1,32 @@
+.appointment-panel {
+    background-color: teal;
+    display: flex;
+    box-shadow: 5px 5px 20px #232323;
+    
+}
+
+.custom-block {
+    padding: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.custom-block:nth-child(1), .custom-block:nth-child(3){
+    background-color: rgb(1, 94, 94);
+}
+
+.custom-block:nth-child(3) a {
+    font-size: 40px;
+    vertical-align: middle;
+    color:  rgb(116, 168, 172);
+    transition: .5s;
+}
+
+.custom-block:nth-child(3) a:hover {
+    text-decoration: none;
+    color:  rgb(146, 197, 201);
+}
+
+@media screen and (max-width: 900px){
+
+}

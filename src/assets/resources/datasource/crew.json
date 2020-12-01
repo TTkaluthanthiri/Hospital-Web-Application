@@ -1,0 +1,48 @@
+{
+    "crew": [
+        {
+            "id": 10023,
+            "name": "Dr T. D. Jayarathna", 
+            "category": "Doctor",
+            "spe": [
+                "ETG", "Surgeon"
+            ],
+            "info": "Chief doctor of 2nd Ward",
+            "quali": [
+                "MBBS", "SSD"
+            ],
+            "img":"../../../../assets/resources/images/team-4.jpg"
+
+        },
+
+        {
+            "id": 10223,
+            "name": "Dr M. Nadeehewa", 
+            "category": "Doctor",
+            "spe": [
+                "Surgeon"
+            ],
+            "info": "Assistant Doctor of 2nd Ward",
+            "quali": [
+                "MBBS"
+            ],
+            "img":"../../../../assets/resources/images/team-2.jpg"
+
+        },
+
+        {
+            "id": 10088,
+            "name": "H. J. D. Shanika", 
+            "category": "Nurse",
+            "spe": [
+                "DS"
+            ],
+            "info": "A nurse of 2nd Ward",
+            "quali": [
+                "PC", "FGLV1"
+            ],
+            "img":"../../../../assets/resources/images/team-1.jpg"
+
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "medicines": [
+        {
+            "name": "Aluminimum Plask",
+            "category": "Type 06",
+            "price": 100.00,
+            "info": "Use for Almunium Hidration and a nutritious meal.",
+            "pic": "../../../../assets/resource/images/med1.png"      
+        },
+        {
+            "name": "Carbon Hydroxine",
+            "category": "Type 03A",
+            "price": 250.00,
+            "info": "Use for Almunium Hidration and a nutritious meal.",
+            "pic": "../../../../assets/resource/images/med2.png"      
+        },
+        {
+            "name": "Pendol",
+            "category": "Type 01",
+            "price": 50.00,
+            "info": "Use for Almunium Hidration and a nutritious meal.",
+            "pic": "../../../../assets/resource/images/med1.png"      
+        },
+        {
+            "name": "Aluminimum Plask",
+            "category": "Type 01",
+            "price": 100.00,
+            "info": "Use for Almunium Hidration and a nutritious meal.",
+            "pic": "../../../../assets/resource/images/pic01.jpg"      
+        },
+        {
+            "name": "Aluminimum Plask",
+            "category": "Type 01",
+            "price": 100.00,
+            "info": "Use for Almunium Hidration and a nutritious meal.",
+            "pic": "../../../../assets/resource/images/pic01.jpg"      
+        }
+    ]
+}

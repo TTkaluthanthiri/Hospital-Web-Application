@@ -1,0 +1,31 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <a routerLinkActive="list-item-active" routerLink="/home">
+    <img
+      width="150"
+      alt="Angular Logo"
+      src="../../../../assets/resources/images/logo1.png"
+    /></a>
+    
+      <div class="spacer"></div>
+      <div class="navigation">
+          <ul>
+              <li>
+                <div *ngIf="session.isActive; else elseblock"  >
+                  <a routerLinkActive="list-item-active" style="cursor: pointer;" (click)="onLoad(session.user)" class="btn-log"><i class="fas fa-user"></i>  {{session.user}}</a>
+                  <a routerLinkActive="list-item-active" style="cursor: pointer;" (click)="onLogout()" class="btn-log"><i class="fas fa-sign-out-alt"></i></a>
+                </div>
+                <ng-template #elseblock>
+                  <a routerLinkActive="list-item-active" routerLink="/login" class="btn-log"><i class="fas fa-sign-out-alt"></i></a>
+                </ng-template>
+                
+                
+              </li>
+              <li><a routerLinkActive="list-item-active" routerLink="/information">Information</a></li>
+              <li><a routerLinkActive="list-item-active" routerLink="/medicines">Medicines</a></li>
+              <li><a routerLinkActive="list-item-active" routerLink="/about">About Us</a></li>
+              <li><a routerLinkActive="list-item-active" routerLink="/contact">Contact Us</a></li>
+          </ul>
+      </div>
+      
+  </div>

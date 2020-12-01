@@ -1,0 +1,15 @@
+.img-contain {
+    width: 100%;
+    height: 200px;
+    background-color: tomato;
+}
+
+.price-tag {
+    font-size: 25px;
+    color: #314c61;
+}
+
+.price h4{
+    font-size: 45px;
+    font-weight: 600;
+}

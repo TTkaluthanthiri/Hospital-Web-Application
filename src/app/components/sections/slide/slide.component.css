@@ -1,0 +1,48 @@
+.container-custom {
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+
+.slide-img {
+    background: linear-gradient(to right bottom, #648880, #293f50);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 150px 80px;
+    overflow: hidden;
+}
+
+.wrap-main-flex {
+    display: flex;
+    flex: 50%;
+}
+
+.wrap-main-flex div:nth-of-type(3){
+    padding: 40px;
+    padding-top: 10vh;
+    flex-basis: 40%;
+    text-align: right;
+}
+
+.wrap-main-flex div:nth-of-type(2) {
+    flex-basis: 1%;
+    background-color: rgb(116, 168, 172);
+    margin-left: 60px;
+}
+
+.pipe-symbol{
+    font-size: 450px;
+    color: rgb(116, 168, 172);
+}
+
+/* .text-wrap {
+
+} */
+
+.wrap-left {
+    text-align: left;
+}
+

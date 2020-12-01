@@ -1,0 +1,67 @@
+<app-container-title title='User Registration' desc='Small Description under Contact Us title'></app-container-title>
+
+<div class="container-text container-normal light">
+    <div class="form-container">
+        <form (ngSubmit)="onSubmit()">
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <input class="form-control" id="InputName" type="text" placeholder="Your Full Name" name="name" [(ngModel)]="user.name">
+                        <small>Not there</small>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="InputUname" type="text" placeholder="Prefered Username" name="uname" [(ngModel)]="user.uname">
+                        <small>Not there</small>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="InputAddress" type="text" placeholder="Your Address" name="address" [(ngModel)]="user.address">
+                        <small>Not there</small>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <input class="form-control" id="InputMail" type="text" placeholder="Your Email" name="email" [(ngModel)]="user.email">
+                                <small>Not there</small>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <input class="form-control" id="InputContact" type="text" placeholder="Your Contact Number" name="contact" [(ngModel)]="user.contact">
+                                <small>Not there</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <input class="form-control" id="InputPass" type="password" placeholder="Your Password" name="password" [(ngModel)]="user.password">
+                                <small>Not there</small>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <input class="form-control" id="InputCPass" type="password" placeholder="Confirm your Password" name="cpassword" [(ngModel)]="cpassword">
+                                <small>Not there</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Example file input</label>
+                        <input type="file" class="form-control-file" id="FileUp">
+                    </div>
+                    <div class="form-group">
+                        <label>Health Related Information :</label>
+                        <textarea class="form-control" rows="6" id="InputHealth" name="info" [(ngModel)]="user.info"></textarea>
+                        <small>Not there</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">REGISTER</button>
+                    <div class="text-center">
+                        <a routerLinkActive="list-item-active" routerLink="/login">To Login page</a> <br>
+                        <a href="#">Back</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+

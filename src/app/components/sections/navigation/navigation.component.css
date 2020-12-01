@@ -1,0 +1,66 @@
+.navigation {
+    position: relative;
+    top: 10px;
+
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 40px;
+}
+
+.navigation ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(125, 165, 168);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.navigation ul li a:hover {
+    color: rgb(160, 221, 250);
+}
+
+.btn-log {
+    padding: 15px 10px;
+    border-radius: 20px;
+    border: 2px solid  rgb(125, 165, 168);
+    margin: 0 2px;
+}
+
+.btn-log i {
+    border: 1px solid rgb(125, 165, 168);
+    border-radius: 15px;
+    padding: 8px;
+}
+
+@media screen and (max-width: 1200px){
+    
+
+    .navigation ul li {
+        margin: 10px;
+    }
+
+    .navigation ul li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .btn-log {
+        display: none;
+    }
+
+    .navigation ul li {
+        margin: 5px;
+    }
+
+    .navigation ul li a {
+        font-size: 12px;
+    }
+}

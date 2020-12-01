@@ -1,0 +1,59 @@
+<form (ngSubmit)="onAppoint()">
+<div class="appointment-panel">
+    
+        <div class="col-sm-3 custom-block">
+            <h4>Make an Appintment</h4>
+        </div>
+        
+        <div class="col-sm-6 custom-block">
+            
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <input class="form-control" id="InputUname" type="text" placeholder="Your Name" name="user" [(ngModel)]="appointment.user">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="InputUname" type="text" placeholder="Contact No." name="contact" [(ngModel)]="appointment.contact">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <input class="form-control" id="InputUname" type="text" placeholder="Email Address" >
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="InputUname" type="text" placeholder="Related Health Issue" name="issue" [(ngModel)]="appointment.issue">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <input class="form-control" id="InputUname" type="date" placeholder="Date" [value]="appointment.date | date:'yyyy-MM-dd'" (input)="appointment.date=parseDate($event.target.value)">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="InputUname" type="time" placeholder="Time Slot" >
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="col-sm-3 custom-block">
+            <button type="submit" 
+            style="display: inline-block;
+            border: none;
+            padding: 1rem 2rem;
+            margin: 0;
+            text-decoration: none;
+            background:  rgb(7, 102, 102);
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 1rem;
+            line-height: 1;
+            cursor: pointer;
+            text-align: center;
+            transition: background 250ms ease-in-out, transform 150ms ease;
+            -webkit-appearance: none;
+            -moz-appearance: none;"
+            >Submit</button>
+        </div>
+    
+</div>
+</form>

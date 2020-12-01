@@ -1,0 +1,17 @@
+<app-container-title title="Medicines" desc='{{description}}'></app-container-title>
+
+<div class="container-normal light">
+
+    <div class="text-center container-head">
+        <h4>Category 01</h4>
+        <p>Small Description about this section</p>
+    </div>
+
+    <div class="row">
+
+        <div class="col-xl-4 col-lg-5" *ngFor ="let medicine of medicines; let i = index">
+            <app-card item='{{medicine["name"]}}' price='{{medicine["price"]}}' info='{{medicine["info"]}}' url='{{medicine["pic"]}}'></app-card>
+        </div>
+        
+    </div>
+</div>
